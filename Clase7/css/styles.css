@@ -1,0 +1,61 @@
+header {
+background-color:#E6E6E6;
+text-align: center;
+letter-spacing: 1rem;
+}
+
+body {
+    font-family: 'Times New Roman';
+}
+
+/*Agrego el espaciado blanco*/
+div.bloque{
+    height: 100px;
+}
+
+h1 {
+    background-color:  #C4C4C4;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    font-style: normal;
+    color: #005677;
+    font-feature-settings: 'cpsp' on;
+}
+
+h2 {
+    background-color:  #C4C4C4;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: normal;
+    color: #005677;
+}
+
+/*Ajusto el texto de los datos personales */
+p.datos {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Alineacion de la lista desordenada con el margen*/
+ul.alineacion{
+    margin-left: -15px;
+}
+
+/*Negrita para las fechas*/
+strong {
+    font-weight: bold;
+}
+
+/*Agrego la sangria al parrafo de abajo*/
+p.espacio{
+    text-align: justify;
+    text-indent: 78px;
+}
+
+footer {
+    background-color:#005677;
+    color: #FFFFFF;
+    text-align: center;
+}
